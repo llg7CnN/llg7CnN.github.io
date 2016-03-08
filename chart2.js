@@ -1,11 +1,12 @@
 $(function() {
     // the chart values
-    var thevalues = [2, 10, 50, 10, 20];
+    var thevalues = [2, 40, 20, 16, 12, 0, 22, 9,
+		     0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
     // let's loop to build tooltips and x labels.
     var thetooltips = new Array(thevalues.length);
     var thelabels = new Array(thevalues.length);
     for (var i = 0; i < thevalues.length; i++) {
-        thetooltips[i] = "<div class='label'><p class='charlab'>" + thevalues[i] + " hits</p><p class='date'>" + (i + 1) + " march</p></div>";
+        thetooltips[i] = "<div class='label'><p class='charlab'>" + thevalues[i] + " levels</p><p class='date'>" + (i + 1) + " March</p></div>";
         thelabels[i] = i + 1;
     }
 
