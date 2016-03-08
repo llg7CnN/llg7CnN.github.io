@@ -17,7 +17,11 @@
     <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
     <script type="text/javascript" src="js/buttons.js"></script>
     <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
-
+    <script src="jquery.js" type="text/javascript"></script>
+    <script src="raphael.js" type="text/javascript"></script>
+    <script src="elycharts.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="/chart2.css" media="print" type="text/css">
+    <script src="chart2.js" type="text/javascript"></script>
     <!--[if lt IE 9]>
 	<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
@@ -43,10 +47,13 @@
 	  <a href="http://llg7cnn.github.io/index_about.html" a class="big button2"><span  class="user icon"></span>ABOUT</a>
 	  <a href="http://llg7cnn.github.io/index_works.html" a class="big button2"><span  class="pen icon"></span>WORKS</a>
           <h2>
+	    
+	    <!-- Programming skills(edit)-->
 	    <a id="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages" aria-hidden="true"><span class="octicon octicon-link"></span>PROGRAMMING SKILL</a></h2>
-
-	  <img src="pg-skill.png" alt="" title="PROGRAMMING SKILL">
-
+	  
+	  <!--	  <img src="pg-skill.png" alt="" title="PROGRAMMING SKILL">-->
+	  <div id="chart" style="width: 60%; height: 300px"></div>
+	  
 
 	  <h3> <a id="rather-drive-stick" class="anchor" href="#rather-drive-stick" aria-hidden="true"><span class="octicon octicon-link"></span>愛用エディタ</a></h3>
 
@@ -61,7 +68,9 @@
 
 	  <p>父, 祖父, Hannah Arendt</p>
 
-        <div id="chart_div"></div>
+
+	  <!-- Side some Buttons-->
+          <div id="chart_div"></div>
 
 	</section>
 
