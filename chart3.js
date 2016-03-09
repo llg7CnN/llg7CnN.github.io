@@ -89,7 +89,7 @@ $.elycharts.templates['line_basic_6'] = {
     x: {
       labelsRotate: 45,
       labelsProps: {
-        font: "12px Verdana"
+        font: "8px Verdana"
       }
     }
   },
