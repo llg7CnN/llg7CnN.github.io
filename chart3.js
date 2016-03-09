@@ -35,7 +35,7 @@ $(function() {
 
 $.elycharts.templates['line_basic_6'] = {
   type: "line",
-  margins: [10, 40, 40, 30],
+  margins: [10, 40, 50, 30],
   defaultSeries: {
     highlight: {
       newProps: {
@@ -89,7 +89,7 @@ $.elycharts.templates['line_basic_6'] = {
     x: {
       labelsRotate: 45,
       labelsProps: {
-        font: "8px Verdana"
+        font: "11px Verdana"
       }
     }
   },
