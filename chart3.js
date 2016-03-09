@@ -101,6 +101,6 @@ $.elycharts.templates['line_basic_6'] = {
 	    ny: 5
 	}
     },
-    barMargins: 40
+    barMargins: 30
 };
 
