@@ -2,10 +2,10 @@ $(function() {
     $("#chart").chart({
 	template: "line_basic_6",
 	tooltips: {
-	    serie1: ["Took C classes", "Didn't have classes ", "Took Scheme classes", 
-		     "Took Java classes", "Didn't have classes", "Did't have classes"],
-	    serie2: ["a", "b", "c", "d", "e", "f"],
-	    serie3: ["a", "b", "c", "d", "e", "f"],
+	    serie1: ["Took C <p>classes</p>", "Didn't have <p>classes</p> ", "Took Scheme <p>classes</p>", 
+		     "Took Java <p>classes</p>", "Didn't have <p>classes</p>", "Did't have <p>classes</p>"],
+	    serie2: ["Studying", "Studying", "Studying", "Studying", "Studying", "Studying"],
+	    serie3: ["Editing", "Editing", "Editing", "Editing", "Editing", "Editing"],
 	},
 	values: {
 	    serie1: [60, 15, 40, 40, 15, 15],
